@@ -1,5 +1,5 @@
 *{
-  background-color: pink;
+  /* background-color: pink; */
 
 }
 h1{
@@ -7,4 +7,12 @@ h1{
 }
 img{
   width: 200px;
+}
+
+.Facebook{
+  color:blue;
+}
+
+.socialmedia {
+  background-color: green;
 }
