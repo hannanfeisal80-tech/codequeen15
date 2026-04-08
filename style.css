@@ -49,11 +49,9 @@ section{
   cursor: pointer;
   transition: 0.3s ease;
 }
-.navbar a:hover{
-  transform: scale(1.05);
-}
+.navbar a:hover,
 .navbar a:active{
-  color: pink;
+  color: palevioletred;
   transform: scale(1.05);
 }
 span{
