@@ -35,3 +35,82 @@ console.log(x);
 console.log(y)
 console.log(typeof x);
 console.log(typeof y);
+
+// 3.Boolean
+// 4.Undefined
+// 5.Null
+// 6.Symbol(includes symbols like +,-,*) like math expressions
+// Explanation of Symbol data types
+// Mathematical Operations
+let a = 5;
+let b = 3;
+// console.log(a+b);Addition
+// console.log(a-b);Subtraction
+// console.log(a*b);Multiplication
+// console.log(a/b);Divison
+// console.log(a%b);Modulus
+// console.log(a**b);Exponentiation
+// 7.Object
+
+// Conditions in JavaScript
+// if statement
+// Defination of if statement
+let condition=true;
+let condition1=false
+let condition2=false;
+let condition3=true;
+if(condition)
+
+if(condition){
+  // code to be executed if condition is true
+}
+// if-else statement
+// definition of if-else statement
+if(condition){
+  // code to be executed if condition is true
+} else{
+   // code to be executed if condition is false
+}
+
+// else-if statement
+// definition of else-if statement
+if(condition1){
+  // code to be executed if condition1 is true
+} else if(condition2){
+  // code to be executed if condition2 is true
+}else{
+  // code to be executed if both condition1 and condition2 are false
+  // 
+}
+
+// Practice examples
+let mark=50;
+
+if(mark > 69){
+  console.log("very good you have passed the exam")
+}
+
+if(mark >= 70){
+  console.log("You have passed the exam")
+}else{
+  console.log("You have failed the exam")
+}
+// create a grading for A level marks
+
+// Comparison Operators
+// 1.Equal to(==)
+// 2. Not equal to (!=)
+// 3. Strict equal to(===)
+// 4.Strict not equal to(!==)
+// 5.Greater than(>)
+// 6.Less than(<)
+// 7.Greater than or equal to(>=)
+// 8.Less than or equal to(<=)
+
+// Arrays 
+// An Array is a data structure that can hold multiple values at once.It is defined using lists
+["apples","oranges","watermelon","grapes"]
+[1,2,3,4,5]
+let fruits=["apples","oranges","watermelon","grapes"];
+console.log(fruits);
+console.log(fruits[2])
