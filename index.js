@@ -109,8 +109,32 @@ if(mark >= 70){
 
 // Arrays 
 // An Array is a data structure that can hold multiple values at once.It is defined using lists
+// [] an empty array
+
 ["apples","oranges","watermelon","grapes"]
 [1,2,3,4,5]
 let fruits=["apples","oranges","watermelon","grapes"];
 console.log(fruits);
 console.log(fruits[2])
+
+let mixedArray = ["Hannan", 25, "Uganda",true,null,undefined,{name:"John"}];
+console.log(mixedArray);
+console.log(mixedArray=[6]);
+
+// Objects
+// {} an empty object
+let person = {
+  name:"Alex",
+  age:30,
+  country:"Uganda",
+  isStudent:"false",
+  Hobbies:["coding","traveling"],
+  address:{
+    street:"123 main st",
+    city:"Kampala",
+    country:"Uganda"
+  }
+}
+console.log(person);
+console.log(person["name"]); //accessing the name property
+console.log(person.Hobbies[1]) //accessing the second hobbie
