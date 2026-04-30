@@ -137,4 +137,38 @@ let person = {
 }
 console.log(person);
 console.log(person["name"]); //accessing the name property
-console.log(person.Hobbies[1]) //accessing the second hobbie
+console.log(person.Hobbies[1]) //accessing the second hobby
+
+// work from the LMS
+const itemInput=document.getElementById('item');
+const todoTimeInput =document.getElementById('time');
+const saveBtn =document.getElementById('save');
+const tableBody =document.getElementById('tableBody');
+
+// Pick values to a given element
+const getElementValue=(element)=>{
+  return element.value;
+}
+
+// on button click
+saveBtn.addEventListener("click",(event)=>{
+  event.preventDefault();
+
+  // pick value of the task name
+  const itemvalue=getElementValue(itemInput);
+  const todoTimeVale=getElementValue(todoTimeInput);
+
+  const tableRow=document.createElement("tr");
+
+  const ItemId=document.createElement("td");
+
+  ItemId.innerHTML=itemvalue;
+  tableRow.appendChild(itemId)
+
+  const todoTimeId=document.createElement("td");
+  toDoTimeTd.innerHTML=toDoTimeTdValue;
+  tableRow.appendChild(toDoTimeid)
+  
+  tableBody.appendChild(tableRow)
+})
+

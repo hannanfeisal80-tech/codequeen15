@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>To Do App</title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-4" style="margin:20px">
+      <form>
+        <h3><b>To Do list</b></h3>
+        <div class="form-group">
+        <label for="item">Item</label>
+        <input type="text" class="form-control" id="item">
+        </div>
+
+        <div class="form-group">
+        <label for="todotime">Time</label>
+        <input type="text" class="form-control" id="time">
+        </div>
+        
+        <button type="submit" class="btn btn-primay" id="save">Register</button>
+        
+      </form>
+
+      <div class="col-md-6" style="margin-top:100px; margin-left:50px">
+        <h2><b>To Do List</b></h2>
+      </div>
+      <table class="table table-bordered">
+        <th>
+          <tr>
+            <th scope ="col">Item</th>
+            <th scope="col">To do time</th>
+          </tr>
+        </th>
+        <tbody id="tablebody"></tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+
+  <script scr="./index.js"></script>
+</body>
+</html>
